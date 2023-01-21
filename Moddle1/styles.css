@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap'); 
+
+ /* font-family: 'Karla', sans-serif; */
+
+ :root{
+    --backc:#e6eff6;
+    --fontc:#76b6b6;
+    --font2c:#ebf7ad;
+    --font3c:#c2c7ce;
+    --card1c:#2bb3b1;
+    --card2c:#49bebd;
+    --buttonc:#bfdf32;
+
+
+
+
+ }
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    background-color: var(--backc);
+ }
+
+ .container{
+    background-color: white;
+    margin: 0 auto; 
+    width: 600px;
+    /* min-height: 300px; */
+    margin-top: 10%;
+ }
+
+ .join_comm{
+    background-color: white;
+   min-height: 200px;
+   padding-left: 40px;
+   padding-top: 55px;
+    
+ }
+
+ .join_comm h3{
+    color:var(--fontc) ;
+    font-family: 'Karla', sans-serif;
+
+ }
+ .join_comm h1{
+    color:var(--font2c) ;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    margin-top:15px;
+
+ }
+ .join_comm p{
+    color:var(--font3c) ;
+    font-family: 'Karla', sans-serif;
+    margin-top:8px;
+    
+
+ }
+.why_sub{
+    display: flex;
+    
+}
+
+ .monthly_sub{
+    background-color: var(--card1c);
+    width: 50%;
+    min-height: 200px;
+    float:left;
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 25px;
+    
+ 
+ }
+ .why_us{
+    background-color: var(--card2c);
+    width: 50%;
+    min-height: 200px;
+    float: right;
+    padding: 20px;
+   
+ }
+
+ .monthly_sub h2{
+      color:white;
+      font-family : 'Karla', sans-serif;
+      font-size: 16px;
+      padding-bottom: 11px;
+ }
+
+
+
+.monthly_sub h1{
+    color:white ;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 10px;
+    
+   
+   
+}
+
+.monthly_sub p{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.buttonstyle{
+    background-color: var(--buttonc);    
+     width: 240px;
+     min-height: 40px;
+     margin: 0 auto;
+     margin-top: 10px;
+     border-radius: 5px;
+     text-align: center;
+     margin-right: 30px;
+
+}
+.buttonstyle p{
+    padding-top: 12px;
+    font-size: 13px;
+    font-family: 'Karla', sans-serif;
+   
+}
+
+
+.why_us h2{
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  margin-left: 35px;
+    margin-top: 15px;
+   
+}
+
+.why_us p{
+    color: var(--backc);
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    margin-left: 35px;
+    margin-top: 15px;
+     
+  }
+
+@media screen and (min-width:768px) {
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    background-color: var(--backc);
+ }
+
+ .container{
+    background-color: white;
+    margin: 0 auto; 
+    width: 600px;
+    /* min-height: 300px; */
+    margin-top: 10%;
+ }
+
+ .join_comm{
+    background-color: white;
+   min-height: 200px;
+   padding-left: 40px;
+   padding-top: 55px;
+    
+ }
+
+ .join_comm h3{
+    color:var(--fontc) ;
+    font-family: 'Karla', sans-serif;
+
+ }
+ .join_comm h1{
+    color:var(--font2c) ;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    margin-top:15px;
+
+ }
+ .join_comm p{
+    color:var(--font3c) ;
+    font-family: 'Karla', sans-serif;
+    margin-top:8px;
+    
+
+ }
+.why_sub{
+    display: flex;
+    
+}
+
+ .monthly_sub{
+    background-color: var(--card1c);
+    width: 50%;
+    min-height: 200px;
+    float:left;
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 25px;
+    
+ 
+ }
+ .why_us{
+    background-color: var(--card2c);
+    width: 50%;
+    min-height: 200px;
+    float: right;
+    padding: 20px;
+   
+ }
+
+ .monthly_sub h2{
+      color:white;
+      font-family : 'Karla', sans-serif;
+      font-size: 16px;
+      padding-bottom: 11px;
+ }
+
+
+
+.monthly_sub h1{
+    color:white ;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 10px;
+    
+   
+   
+}
+
+.monthly_sub p{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.buttonstyle{
+    background-color: var(--buttonc);    
+     width: 240px;
+     min-height: 40px;
+     margin: 0 auto;
+     margin-top: 10px;
+     border-radius: 5px;
+     text-align: center;
+     margin-right: 30px;
+
+}
+.buttonstyle p{
+    padding-top: 12px;
+    font-size: 13px;
+    font-family: 'Karla', sans-serif;
+   
+}
+
+
+.why_us h2{
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  margin-left: 35px;
+    margin-top: 15px;
+   
+}
+
+.why_us p{
+    color: var(--backc);
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    margin-left: 35px;
+    margin-top: 15px;
+     
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (orientation: portrait) {
+   @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap'); 
+
+ /* font-family: 'Karla', sans-serif; */
+
+ :root{
+    --backc:#e6eff6;
+    --fontc:#76b6b6;
+    --font2c:#ebf7ad;
+    --font3c:#c2c7ce;
+    --card1c:#2bb3b1;
+    --card2c:#49bebd;
+    --buttonc:#bfdf32;
+
+ }
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+ }
+
+ body{
+    background-color: var(--backc);
+ }
+
+ .container{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 100px;
+  
+
+ }
+
+.join_comm{
+    background-color: white;
+    min-height: 350px;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+
+.join_comm h3{
+     font-size: 31px;
+    font-family: 'Karla', sans-serif; 
+    color: var(--fontc);
+
+} 
+
+.join_comm h1{
+    font-size: 20px;
+   font-family: 'Karla', sans-serif; 
+   margin-top: 30px;
+   color: var(--buttonc);
+
+} 
+.join_comm p{
+    font-size: 20px;
+   font-family: 'Karla', sans-serif; 
+   margin-top: 30px;
+   color: var(--font3c);
+
+} 
+
+.monthly_sub
+{
+    background-color: var(--card1c);
+    min-height: 350px;
+    padding-left: 60px;
+    padding-top: 50px;
+  
+}
+
+.monthly_sub h2
+{
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+ 
+}
+
+.monthly_sub h1
+{
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 30px;
+    color: white;
+    
+}
+
+.monthly_sub p
+{
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 20px;
+    color: white;
+}
+
+.buttonstyle
+{
+    background-color: var(--buttonc);
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.buttonstyle p
+{
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    padding-left: 110px;
+    padding-top: 13px;
+    color: white;
+
+}
+
+
+.why_us
+{
+    background-color: var(--card2c);
+    min-height: 350px;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.why_us h2
+{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+.why_us p
+{
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+  
+  
+ }
+
+
+
+   
+
+
+
+

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap'); 
+
+ /* font-family: 'Karla', sans-serif; */
+
+ :root{
+    --backc:#e6eff6;
+    --fontc:#76b6b6;
+    --font2c:#ebf7ad;
+    --font3c:#c2c7ce;
+    --card1c:#2bb3b1;
+    --card2c:#49bebd;
+    --buttonc:#bfdf32;
+
+ }
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+ }
+
+ body{
+    background-color: var(--backc);
+ }
+
+ .container{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 100px;
+  
+
+ }
+
+.join_comm{
+    background-color: white;
+    min-height: 350px;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+
+.join_comm h3{
+     font-size: 31px;
+    font-family: 'Karla', sans-serif; 
+    color: var(--fontc);
+
+} 
+
+.join_comm h1{
+    font-size: 20px;
+   font-family: 'Karla', sans-serif; 
+   margin-top: 30px;
+   color: var(--buttonc);
+
+} 
+.join_comm p{
+    font-size: 20px;
+   font-family: 'Karla', sans-serif; 
+   margin-top: 30px;
+   color: var(--font3c);
+
+} 
+
+.monthly_sub
+{
+    background-color: var(--card1c);
+    min-height: 350px;
+    padding-left: 60px;
+    padding-top: 50px;
+  
+}
+
+.monthly_sub h2
+{
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+ 
+}
+
+.monthly_sub h1
+{
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 30px;
+    color: white;
+    
+}
+
+.monthly_sub p
+{
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    margin-top: 20px;
+    color: white;
+}
+
+.buttonstyle
+{
+    background-color: var(--buttonc);
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.buttonstyle p
+{
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    padding-left: 110px;
+    padding-top: 13px;
+    color: white;
+
+}
+
+
+.why_us
+{
+    background-color: var(--card2c);
+    min-height: 350px;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.why_us h2
+{
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+.why_us p
+{
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
